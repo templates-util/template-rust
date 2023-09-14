@@ -1,0 +1,8 @@
+# .github/dependabot.yml
+
+version: 2
+updates:
+  - package-ecosystem: "cargo" # O ecossistema do pacote para Rust é "cargo"
+    directory: "/"  # Localização dos manifestos do pacote. Normalmente é a raiz para projetos Rust simples
+    schedule:
+      interval: "daily"  # Atualizar semanalmente
